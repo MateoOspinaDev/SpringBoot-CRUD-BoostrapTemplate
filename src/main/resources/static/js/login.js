@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 
-async function iniciarSesion() {
+async function iniciarSesion() {//Su objetivo es recopilar los datos del registro y mandarlos en una peticion
   let datos = {};
   datos.email = document.getElementById('txtEmail').value;
   datos.password = document.getElementById('txtPassword').value;

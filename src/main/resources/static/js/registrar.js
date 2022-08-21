@@ -5,6 +5,8 @@ $(document).ready(function() {
   //$('#usuarios').DataTable();
 });
 
+
+
 //Lógica para tomar los datos de los inputs
 async function registrarUsuario() {
   let datos = {};

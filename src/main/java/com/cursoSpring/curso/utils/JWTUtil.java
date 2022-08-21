@@ -19,6 +19,7 @@ import java.util.Date;
  */
 @Component
 public class JWTUtil {
+    //Las variables tiene su valor cargado desde apication properties
     @Value("${security.jwt.secret}")
     private String key;
 

@@ -46,7 +46,7 @@ async function eliminarUsuario(id){
       }
       const request = await fetch('api/usuarios/'+id, {
               method: 'DELETE',
-              headers: getHeaders
+              headers: getHeaders()
       });
-      location.reload();//Recara la pagina para que se vea el cambio
+      location.reload();//Recarga la pagina para que se vea el cambio
 }
